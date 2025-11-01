@@ -1,1 +1,32 @@
-.env*
+# Compiled binaries and build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*/main
+
+# Go module cache and dependencies
+/vendor/
+go.sum
+
+# Test-related files
+*_test
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Log files and temporary files
+*.log
+tmp/
+
+# Sensitive information (example)
+.env
+config.local.yaml
